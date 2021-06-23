@@ -1,0 +1,9 @@
+1. Disable password authentication - change it to RSA/certificate-based
+2. Add ldap/central user management software
+3. Create and enforce password policy - complexity, rotation, non-repeating
+4. Set up jail mechanism for bruteforce logins - simplest fail2ban/honeypot and add alerting for it
+5. Change SSH port
+6. Create VPN service and allow management only via private network
+7. Create and enforce policy of using password manager - reducing amount of repeatable/written on yellow notepads passwords
+8. Set up proper iptables rules with allowlisting and default deny
+9. In case of very strict policy - set up iptables rules with allowed mac addresses

@@ -1,12 +1,11 @@
 # Provide the backdoor entries created by the nation state attackers. 
 
 # Rouge Username
-
+name=darklord, UID=1001, GID=1001, home=/home/darklord, shell=/bin/bash
 
 # Backdoor process name
-
+/tmp/remotesec -k -l 56565
 
 # Backdoor port number the above process is listening on
-
-
+56565
 
